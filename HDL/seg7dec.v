@@ -5,7 +5,7 @@ module seg7dec(
     input [2:0] dinup, // the upper digit of time
     input [3:0] dinlow, // the lower digit of time
     output [6:0] nSEGUP, nSEGLOW // DE0's 7seg led is low active(fm user manual)
-)
+);
 
 function [6:0] segdec;
 input [3:0] din;
