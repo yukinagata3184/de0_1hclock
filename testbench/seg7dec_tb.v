@@ -4,7 +4,9 @@
 module seg7dec_tb;
 reg [2:0] dinup; 
 reg [3:0] dinlow;
-wire nSEGUP, nSEGLOW;
+wire [6:0] nSEGUP, nSEGLOW;
+
+seg7dec seg7dec(.dinup(dinup), .dinlow(dinlow), .nSEGUP(nSEGUP), .nSEGLOW(nSEGLOW));
 
 initial begin
      dinup = 3'h0; dinlow = 4'h0;
