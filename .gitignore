@@ -1,0 +1,16 @@
+# Quartus generated folders
+/db/
+/incremental_db/
+/output_files/
+
+# Quartus project files
+*.qpf
+*.qsf
+*.qws
+*.bak
+
+# ModelSim generated folders and files
+/work
+*.mti
+*.mpf
+*.wlf
