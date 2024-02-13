@@ -17,3 +17,6 @@
 
 # drawio
 *.bkp
+
+# for store waveform images
+sim_result/
