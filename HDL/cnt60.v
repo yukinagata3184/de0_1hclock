@@ -1,7 +1,7 @@
 // Count up to 59min or 59sec.
 // author:yukinagata3184
 
-module CNT60(
+module cnt60(
     input CLK, RST,
     input cnten,
     output ca,
