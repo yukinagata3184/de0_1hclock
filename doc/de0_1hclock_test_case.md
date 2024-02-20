@@ -1,5 +1,24 @@
 # Test case for de0_1hclock
 ## seg7dec.v
+| Case | Purpose | Check |
+|:--|:--|---|
+| nSEGUP 100_0000 when dinup 0 | Check 7SEG LED | https://github.com/yukinagata3184/de0_1hclock/issues/4 |
+| nSEGUP 111_1001 when dinup 1 | Check 7SEG LED | https://github.com/yukinagata3184/de0_1hclock/issues/4 |
+| nSEGUP 010_0100 when dinup 2 | Check 7SEG LED | https://github.com/yukinagata3184/de0_1hclock/issues/4 |
+| nSEGUP 011_0000 when dinup 3 | Check 7SEG LED | https://github.com/yukinagata3184/de0_1hclock/issues/4 |
+| nSEGUP 001_1001 when dinup 4 | Check 7SEG LED | https://github.com/yukinagata3184/de0_1hclock/issues/4 |
+| nSEGUP 001_0010 when dinup 5 | Check 7SEG LED | https://github.com/yukinagata3184/de0_1hclock/issues/4 |
+| nSEGUP 000_0010 when dinup 6 | Check 7SEG LED | https://github.com/yukinagata3184/de0_1hclock/issues/4 |
+| nSEGLOW 100_0000 when dinlow 0 | Check 7SEG LED | https://github.com/yukinagata3184/de0_1hclock/issues/4 |
+| nSEGLOW 111_1001 when dinlow 1 | Check 7SEG LED | https://github.com/yukinagata3184/de0_1hclock/issues/4 |
+| nSEGLOW 010_0100 when dinlow 2 | Check 7SEG LED | https://github.com/yukinagata3184/de0_1hclock/issues/4 |
+| nSEGLOW 011_0000 when dinlow 3 | Check 7SEG LED | https://github.com/yukinagata3184/de0_1hclock/issues/4 |
+| nSEGLOW 001_1001 when dinlow 4 | Check 7SEG LED | https://github.com/yukinagata3184/de0_1hclock/issues/4 |
+| nSEGLOW 001_0010 when dinlow 5 | Check 7SEG LED | https://github.com/yukinagata3184/de0_1hclock/issues/4 |
+| nSEGLOW 000_0010 when dinlow 6 | Check 7SEG LED | https://github.com/yukinagata3184/de0_1hclock/issues/4 |
+| nSEGLOW 101_1000 when dinlow 7 | Check 7SEG LED | https://github.com/yukinagata3184/de0_1hclock/issues/4 |
+| nSEGLOW 000_0000 when dinlow 8 | Check 7SEG LED | https://github.com/yukinagata3184/de0_1hclock/issues/4 |
+| nSEGLOW 001_0000 when dinlow 9 | Check 7SEG LED | https://github.com/yukinagata3184/de0_1hclock/issues/4 |
 
 ## cnt1sec.v
 | Case | Purpose | Check |
