@@ -51,8 +51,9 @@
 | digitup  1 -> 2 when CLK rises and digitlow 9 -> 0 (RST is LOW) | Check edge case |  |
 | digitup  2 -> 3 when CLK rises and digitlow 9 -> 0 (RST is LOW) | Check center case |  |
 | digitup  3 -> 4 when CLK rises and digitlow 9 -> 0 (RST is LOW) | Check center case |  |
-| digitup  4 -> 5 when CLK rises and digitlow 9 -> 0 (RST is LOW) | Check center case |  |
-| digitup  5 -> 6 when CLK rises and digitlow 9 -> 0 (RST is LOW) | Check edge case |  |
-| digitup  6 -> 0 when CLK rises and digitlow 9 -> 0 (RST is LOW) | Check edge case |  |
+| digitup  4 -> 5 when CLK rises and digitlow 9 -> 0 (RST is LOW) | Check edge case |  |
+| digitup  5 -> 0 when CLK rises and digitlow 9 -> 0 (RST is LOW) | Check edge case |  |
+| ca LOW-> HIGH when digitup is 5 and digitlow 8 -> 9 (RST is LOW) | Check ca |  |
+| ca HIGH-> LOW when digitup 5 -> 0 and digitlow 9 -> 0 (RST is LOW) | Check ca |  |
 
 ## de0_1hclock.v
