@@ -25,7 +25,7 @@ always @(posedge CLK or posedge RST) begin
         digitup <= 3'd0;
     else if(cnten==1'b1 && digitlow==4'd9 && digitup!=3'd5)
         digitup <= digitup + 1'b1;
-    else if(cnten==1'b1 && digitlow==4'd5 && digitup==3'd5)
+    else if(cnten==1'b1 && digitlow==4'd9 && digitup==3'd5)
         digitup <= 3'd0;
 end
 
