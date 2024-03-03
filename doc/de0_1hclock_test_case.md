@@ -59,15 +59,15 @@
 ## de0_1hclock.v
 | Case | Purpose | Check |
 |:--|:--|---|
-| nSEG0~3 are 100_0000(0) when RST rises | Check RST rises |  |
-| nSEG0 is 111_1001(1) when seclow 4'd1 (gen1hz HIGH) | Check output |  |
-| nSEG0 is 010_0100(2) when seclow 4'd2 (gen1hz HIGH) | Check output |  |
-| nSEG0 is 001_0000(9) when seclow 4'd9 (gen1hz HIGH) | Check output |  |
-| nSEG0 is 100_0000(0) and nSEG1 is 111_1001(1) when seclow 4'd0 and secup 3'd1 (gen1hz HIGH) | Check output |  |
-| nSEG0 is 001_0000(9) and nSEG1 is 001_0010(5) when seclow 4'd9 and secup 3'd5 (gen1hz HIGH) | Check output |  |
-| nSEG2 is 111_1001(1) when minlow 4'd1 (gen1hz HIGH) | Check output |  |
-| nSEG2 is 010_0100(2) when minlow 4'd2 (gen1hz HIGH) | Check output |  |
-| nSEG2 is 001_0000(9) when minlow 4'd9 (gen1hz HIGH) | Check output |  |
-| nSEG2 is 100_0000(0) and nSEG3 is 111_1001(1) when minlow 4'd0 and minup 3'd1 (gen1hz HIGH) | Check output |  |
-| nSEG2 is 001_0000(9) and nSEG3 is 001_0010(5) when minlow 4'd9 and minup 3'd5 (gen1hz HIGH) | Check output |  |
-| nSEG2 is 100_0000(0) and nSEG3 is 100_0000(0) when minlow 4'd0 and minup 3'd0 (gen1hz HIGH) | Check output |  |
+| nSEG0~3 are 100_0000(0) when RST rises | Check RST rises | https://github.com/yukinagata3184/de0_1hclock/issues/29 |
+| nSEG0 is 111_1001(1) when seclow 4'd1 (gen1hz HIGH) | Check output | https://github.com/yukinagata3184/de0_1hclock/issues/29 |
+| nSEG0 is 010_0100(2) when seclow 4'd2 (gen1hz HIGH) | Check output | https://github.com/yukinagata3184/de0_1hclock/issues/29 |
+| nSEG0 is 001_0000(9) when seclow 4'd9 (gen1hz HIGH) | Check output | https://github.com/yukinagata3184/de0_1hclock/issues/29 |
+| nSEG0 is 100_0000(0) and nSEG1 is 111_1001(1) when seclow 4'd0 and secup 3'd1 (gen1hz HIGH) | Check output | https://github.com/yukinagata3184/de0_1hclock/issues/29 |
+| nSEG0 is 001_0000(9) and nSEG1 is 001_0010(5) when seclow 4'd9 and secup 3'd5 (gen1hz HIGH) | Check output | https://github.com/yukinagata3184/de0_1hclock/issues/29 |
+| nSEG2 is 111_1001(1) when minlow 4'd1 (gen1hz HIGH) | Check output | https://github.com/yukinagata3184/de0_1hclock/issues/29 |
+| nSEG2 is 010_0100(2) when minlow 4'd2 (gen1hz HIGH) | Check output | https://github.com/yukinagata3184/de0_1hclock/issues/29 |
+| nSEG2 is 001_0000(9) when minlow 4'd9 (gen1hz HIGH) | Check output | https://github.com/yukinagata3184/de0_1hclock/issues/29 |
+| nSEG2 is 100_0000(0) and nSEG3 is 111_1001(1) when minlow 4'd0 and minup 3'd1 (gen1hz HIGH) | Check output | https://github.com/yukinagata3184/de0_1hclock/issues/29 |
+| nSEG2 is 001_0000(9) and nSEG3 is 001_0010(5) when minlow 4'd9 and minup 3'd5 (gen1hz HIGH) | Check output | https://github.com/yukinagata3184/de0_1hclock/issues/29 |
+| nSEG2 is 100_0000(0) and nSEG3 is 100_0000(0) when minlow 4'd0 and minup 3'd0 (gen1hz HIGH) | Check output | https://github.com/yukinagata3184/de0_1hclock/issues/29 |
