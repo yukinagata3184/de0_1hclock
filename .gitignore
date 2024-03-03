@@ -5,7 +5,7 @@
 
 # Quartus project files
 *.qpf
-*.qsf
+de0_1hclock.qsf
 *.qws
 *.bak
 
